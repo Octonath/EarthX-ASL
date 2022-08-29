@@ -124,6 +124,8 @@ start
 		return true;
 		else if(old.money != current.money && current.money == 60000000)
 		return true;
+		else if(old.money != current.money && current.money == 30000000)
+		return true;
 	};
 	
 	
